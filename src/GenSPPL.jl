@@ -1,6 +1,7 @@
 module GenSPPL
 
 using Reexport
+using PyCall
 
 @reexport using SPPL
 
@@ -35,7 +36,7 @@ end
 
 struct SPTrace{NS <: PyObject, T <: NamedTuple} <: Trace
     namespace::NS
-    chm::SPSChoiceMap
+    chm::SPChoiceMap
     marginalized::T
 end
 

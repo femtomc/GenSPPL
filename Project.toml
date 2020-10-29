@@ -1,0 +1,9 @@
+name = "GenSPPL"
+uuid = "05e297f1-4789-4e46-bc85-a5cd5445c78b"
+authors = ["femtomc <mccoybecker@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Gen = "ea4f424c-a589-11e8-07c0-fd5c91b9da4a"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+SPPL = "d4869578-49cb-4439-a9cc-e16ca03432c4"
